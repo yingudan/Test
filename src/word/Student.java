@@ -1,6 +1,7 @@
 package word;
 
 import java.util.Date;
+import java.util.Random;
 
 public class Student {
 	private int id;
@@ -49,5 +50,6 @@ public class Student {
 	public void setBirth(Date birth) {
 		this.birth = birth;
 	}
+	
 
 }
