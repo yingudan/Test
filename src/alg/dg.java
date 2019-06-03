@@ -64,22 +64,15 @@ public class dg {
 	}
 
 	public static void main(String[] args) {
-		// String ck[][] = { { "语文1", "语文2" }, { "数学1", "数学2" }, { "外语1", "外语2"
-		// } };
-		// List<String> result = new ArrayList<String>();
-		// // 这个地方组装准备全排列的数据
-		// dg.run(ck, result, 0, "");
-		// int i = 1;
-		// for (String s : result) {
-		// System.out.println(i++ + ":" + s);
-		// }
-		// }
-		String a = "qrscene_ 22,126";
-
-		if (a.indexOf("qrscene_") == 0) {
-			a = a.replace("qrscene_", "");
-			System.out.println(a.trim());
-		}
+		 String ck[][] = { { "语文1", "语文2" }, { "数学1", "数学2" }, { "外语1", "外语2",
+		 } };
+		 List<String> result = new ArrayList<String>();
+		 // 这个地方组装准备全排列的数据
+		 dg.run(ck, result, 0, "");
+		 int i = 1;
+		 for (String s : result) {
+		 System.out.println(i++ + ":" + s);
+		 }
 
 	}
 }

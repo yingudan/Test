@@ -15,9 +15,6 @@ public class Test1 {
 
 		List<String> l = Arrays.asList("a", "b", "c");
 		l.forEach(System.out::println);
-		// String s="11";
-		// if(s.equals("11"))
-		// System.out.println("false");
 	}
 
 	// Java8 函数式接口就是只定义一个抽象方法的接口

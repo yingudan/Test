@@ -14,7 +14,6 @@ public class GreedArithmetic {
 	 * 测试
 	 */
 	public static void main(String[] args) {
-		// 1.随机构造一批任务
 		List<Pair<Integer>> inputList = new ArrayList<Pair<Integer>>();
 		Random rand = new Random();
 		for (int n = 0; n < 20; ++n) {
@@ -99,7 +98,7 @@ class CompareByRight<T extends Comparable<T>> implements Comparator<Pair<T>> {
 }
 
 /**
- * 代表一个任务对象。有点装逼用模板来写了。left表示开始时间，right表示结束时间。
+ * 代表一个任务对象。left表示开始时间，right表示结束时间。
  * 
  * @param<T>
  */

@@ -10,11 +10,11 @@ public class FilteringApples {
 	public static void main(String[] args) {
 		List<Apple> inventory = Arrays.asList(new Apple(80, "green"), new Apple(155, "green"), new Apple(120, "red"));
 			
-//		for(Apple apple:inventory){
-//			if("red".equals(apple.getColor())){
-//				inventory.remove(apple);
-//			}
-//		}
+		for(Apple apple:inventory){
+			if("red".equals(apple.getColor())){
+				inventory.remove(apple);
+			}
+		}
 		
 //		for(int i=0;i<inventory.size();i++){
 //			if("red".equals(inventory.get(i).getColor())){

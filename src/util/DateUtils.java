@@ -1,4 +1,4 @@
-package com.ujuit.assetsmanager.utils;
+package util;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;

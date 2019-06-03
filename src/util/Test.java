@@ -67,14 +67,15 @@ public class Test {
 	}
 
 	public static void main(String[] args) {
-		List<Magna> list = new ArrayList<>();
-		Magna c = new Magna();
-		c.setName("name");
-		c.setType("String");
-		c.setRemark("备注");
-		list.add(c);
-		// System.out.println(c.getType().forName(className));
-		producePojo(list, "theTest");
+//		List<Magna> list = new ArrayList<>();
+//		Magna c = new Magna();
+//		c.setName("name");
+//		c.setType("String");
+//		c.setRemark("备注");
+//		list.add(c);
+//		// System.out.println(c.getType().forName(className));
+//		producePojo(list, "theTest");
+		
 	}
 }
 

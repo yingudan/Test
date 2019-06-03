@@ -1,6 +1,13 @@
 package study;
 
 public class WeChatRedPackage {
+	/**
+	 * @param totalMoney 红包总金额
+	 * @param num 红包数量
+	 * @param minMoney 最小金额
+	 * @author shandowF
+	 * @date 2018年5月23日
+	 */
 	public static double[] divide(double totalMoney, int num, double minMoney) {
 		double[] each = new double[num];
 		for (int i = 0; i < num - 1; i++) {

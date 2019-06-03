@@ -67,6 +67,8 @@ public class RandomNumberStr {
 //			numberStr += iterator.next();
 //		}
 //		System.out.println(numberStr);
-		System.out.println(getRandomString2(1));
+//		System.out.println(getRandomString2(1));
+		
+		
 	}
 }

@@ -10,23 +10,12 @@ public class MathTest {
 	public static final BigDecimal a2 = new BigDecimal(10.2);
 
 	public static void main(String[] args) {
-		// BigDecimal decimal = new BigDecimal("1.123450");
-		// System.out.println(decimal);
-		// BigDecimal setScale = decimal.setScale(4,
-		// BigDecimal.ROUND_HALF_DOWN);
-		// System.out.println(setScale);
-//		BigDecimal a = new BigDecimal("2800000.0000");
-//		BigDecimal b = new BigDecimal("3000000.0000");
-//		// System.out.println(a.divide(b,2,RoundingMode.HALF_UP));
-//		System.out.println(a.subtract(b));
-//
-//		BigDecimal c = new BigDecimal(3).multiply(new BigDecimal(2)).add(new BigDecimal(1)).divide(new BigDecimal(3), 2,
-//				RoundingMode.HALF_UP);
-//		System.out.println(c);
-//		System.out.println("ygd=");
+		BigDecimal q = new BigDecimal("22.0");
 		
-		System.out.println(queryFloat(a1, a2,new BigDecimal("0.1")));
-
+		System.out.println(q.setScale(3, BigDecimal.ROUND_DOWN));
+		
+		
+		
 	}
 
 	/**

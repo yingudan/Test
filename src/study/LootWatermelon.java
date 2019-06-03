@@ -13,7 +13,7 @@ import static java.lang.System.out;
  *  一辆载西瓜的小货车不幸翻车了，有个人去哄抢
  * 假设共10个西瓜，这人每次抢一个西瓜最多花1000ms，当然，
  * 他每次抢的时间肯定都不同，所以我们用随机数表示。
- * 维护次序者（城管？蛤蟆P葱）2000ms后赶到，
+ * 维护次序者（城管）2000ms后赶到，
  * 随即中断哄抢线程。看这人最后抢到几个西瓜？
  */
 class Looting implements Callable<String> {

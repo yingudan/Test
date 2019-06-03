@@ -26,6 +26,8 @@ public class ClassUtil {
 			colType = "Long";
 		} else if (type.equalsIgnoreCase("bigdecimal")) {
 			colType = "BigDecimal";
+		} else if (type.equalsIgnoreCase("boolean")) {
+			colType = "boolean";
 		} else {
 			System.out.println("错误的类型");
 		}

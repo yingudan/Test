@@ -9,7 +9,7 @@ package design;
 public class NoIfElse_Polymorphism {
 	
 	public static void main(String[] args) {
-		MyPaper myPaper = new MyPaper();
+//		MyPaper myPaper = new MyPaper();
 		
 	}
 	
