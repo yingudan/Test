@@ -35,5 +35,7 @@
 	<classpathentry kind="lib" path="lib/spring-webmvc-portlet-4.0.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/index-calculate-common.jar" sourcepath="lib/index-calculate-common.jar"/>
 	<classpathentry kind="lib" path="lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/usds-sdk"/>
+	<classpathentry kind="lib" path="lib/udata-sdk-0.0.1-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
